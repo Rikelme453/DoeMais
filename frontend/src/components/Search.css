@@ -1,0 +1,54 @@
+.listas {
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    height: 20px;
+}
+
+.listas:hover {
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+.sugestoes{
+    background-color: rgb(255, 255, 255);
+    width: 25.5%;
+    position: absolute;
+    left: 35%;
+    top: 8%;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 2;
+}
+
+.Search-bar{
+    font-size: 18px;
+    border: none;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2); 
+    z-index: 3;
+}
+
+.scrollable {
+    max-height: 150px;
+    overflow-y: scroll;
+  }
+.produtoSearch{
+    margin-left: 50%;
+    margin-top: 0%;
+    float: right;
+    height: 20px;
+
+}
+.nomeProduto{
+    display: inline-block;
+    height: 20px;
+
+}
+
+
+  

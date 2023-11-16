@@ -1,0 +1,25 @@
+.cadastro{
+    background-color:  white;
+    width: 40%;
+    height:300pt;
+    text-align: center;
+    position: relative;
+    margin: 1%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+header {
+    background-color: #0066ff;
+    height: 10vh;
+}
+.navText {
+    color: white;
+    font-family: sans-serif;
+    margin-right: 70%;
+    font-weight: bold;
+  
+}

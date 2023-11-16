@@ -1,0 +1,60 @@
+ .body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #e6e6e6;
+}
+
+.imagem{
+    height:200px ;
+    width:70%;
+    margin: 2%;
+    box-shadow: 5px 5px 5px rgb(56, 56, 56);
+}
+.botao-compra{
+    background-color: #0dfd2d;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.valor_compra{
+    background-color: orange;
+    height: 40px;
+    width: 30%;
+    margin-left: 10%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+
+.produto-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.ProdutoDiv{
+     background-color:  #0000ff;
+     margin: 1%;
+     width: 20%;
+     height: 400px;
+     gap: 1px;
+     margin-left: 2%;
+     text-align: center;
+     border-radius: 10px;
+     box-shadow: 5px 5px 5px rgb(172, 172, 172)
+}
+.elementos{
+    margin: 2%;
+
+}
+
+ 
