@@ -1,10 +1,11 @@
 import React from 'react'
-import { useEffect, useState } from "react"
+import { useEffect, useState ,useHistory} from "react"
 import './Login.css';
 
 
 function Login(onClick ){
   const url = 'http://127.0.0.1:8000/api/v2usuarios/'
+  const history = useHistory()
   const [data, setData] = useState([])
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
@@ -20,6 +21,7 @@ function Login(onClick ){
     try {
       const response = await fetch(endpoint, {
         method: 'GET',
+        
       })
    
 
@@ -34,15 +36,21 @@ function Login(onClick ){
    
   const handleChange = (event) => {
     setEmail(event.target.value);
+  };
+
+  const handleChange2 = (event) => {
     setSenha(event.target.value);
   };
 
-   const handleSubmit = async ()=>{
+   const handleSubmit = async()=>{
+     
     try{
-      if(email && senha == data){
-        alert("Se lascou boy")
+      if(setEmail == setData){
+        console.log(setEmail)
       }else{
         alert("Deu certo boy")
+        console.log(setEmail)
+        history.push("/")
       }
      
     }catch{
@@ -93,7 +101,7 @@ function Login(onClick ){
             <br /><br /><br />
             <h2>Login</h2>
             <input id="input" className='form-control-sm form-control-lg' type="email" placeholder='Informe Seu Email' value={email} onChange={handleChange} /><br /><br />
-            <input  id="input"  className='form-control-sm form-control-lg' type="password" placeholder='Informe Sua Senha' value={senha} onChange={handleChange}/><br /><br />
+            <input  id="input"  className='form-control-sm form-control-lg' type="password" placeholder='Informe Sua Senha' value={senha} onChange={handleChange2}/><br /><br />
             <button id ="btn" className='btn btn-primary' type ="submit" onClick={handleSubmit}>Entrar</button>
           </form>
          

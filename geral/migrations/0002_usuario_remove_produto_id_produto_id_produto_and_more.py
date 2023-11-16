@@ -2,7 +2,7 @@
 
 import django.contrib.auth.models
 from django.db import migrations, models
-import pesquisa.models
+import geral.models
 import uuid
 
 

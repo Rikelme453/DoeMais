@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from  pesquisa.api import serializers
-from pesquisa import models
+from  geral.api import serializers
+from geral import models
 from ..models import Produto , Usuario
 from django.views.decorators.http import require_GET
 

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from pesquisa import models
+from geral import models
 
 class ProdutosSerializers(serializers.ModelSerializer):
     class Meta:
