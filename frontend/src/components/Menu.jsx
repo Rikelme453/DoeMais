@@ -5,7 +5,7 @@ import Home from '../pages/Home/home';
 import Search from './Search';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faCartShopping, faSearch, faUser } from '@fortawesome/free-solid-svg-icons'
-import Login from '../pages/login/Login';
+import Login from '../pages/Login/Login';
 import Cadastro from '../pages/Cadastro/Cadastro';
 import Loja from '../pages/Loja/loja';
 import Carrinho from '../pages/carrinho/Carrinho';

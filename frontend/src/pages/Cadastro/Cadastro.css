@@ -12,14 +12,11 @@
     border-radius: 6px;
 }
 
-header {
-    background-color: #0066ff;
-    height: 10vh;
-}
-.navText {
-    color: white;
-    font-family: sans-serif;
-    margin-right: 70%;
-    font-weight: bold;
-  
+#input2{
+    margin-left: 6%;
+    border: 1px;
+    width: 90%;
+    height: 12%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+
 }

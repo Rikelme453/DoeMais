@@ -22,10 +22,10 @@ const Cadastro = () => {
           </header>
           <form className="cadastro" method='GET' action='#'>
             <h2>Cadastro</h2>
-            <input className='form-control' name='nome' type="name" placeholder='Informe Seu Nome' required /><br />
-            <input className='form-control'  name='email' type="email" placeholder='Informe Seu Email' required /><br />
-            <input className='form-control'  name='senha' type="password" placeholder='Informe Sua Senha' required /><br />
-            <input className='form-control' name='idade' type="number" placeholder='Informe Sua Idade' required/><br />
+            <input id='input2' className='form-control' name='nome' type="name" placeholder='Informe Seu Nome' required /><br />
+            <input id='input2' className='form-control'  name='email' type="email" placeholder='Informe Seu Email' required /><br />
+            <input id='input2' className='form-control'  name='senha' type="password" placeholder='Informe Sua Senha' required /><br />
+            <input id='input2' className='form-control' name='idade' type="number" placeholder='Informe Sua Idade' required/><br />
             <button className='btn btn-primary' type='submit'>Cadastrar-se</button>
           </form>
 

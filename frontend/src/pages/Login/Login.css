@@ -9,11 +9,11 @@
     margin-left: auto;
     margin-right: auto;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 header {
-    background-color: #0066ff;
+    background-color:  #ffa600;
     height: 10vh;
 }
 .navText {
@@ -26,7 +26,15 @@ header {
 #btn{
     height: 12%;
     width: 20%;
+    background-color: #ffa600;
 }
 .Div{
-    background-color: #0066ff;
+    background-color:  #ffa600;
+}
+#input{
+    border: 1px;
+    width: 90%;
+    height: 12%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+
 }

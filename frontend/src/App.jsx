@@ -4,7 +4,7 @@ import {BrowserRouter , Routes ,Route} from 'react-router-dom'
 import Loja from './pages/Loja/loja'
 import Home from './pages/Home/home'
 import Cadastro from './pages/Cadastro/Cadastro'
-import Login from './pages/login/Login'
+import Login from './pages/Login/Login'
 import Carrinho from './pages/carrinho/Carrinho'
 
 
