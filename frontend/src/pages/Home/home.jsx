@@ -25,7 +25,7 @@ function Home() {
             <header>
                <input
                   type="text"
-                  placeholder="Procure seus produtos..."
+                  placeholder="Procure por campanhas"
                   onClick={redirecionar}
                   className="Search-bar"
                />
