@@ -3,7 +3,7 @@ from geral import models
 
 class ProdutosSerializers(serializers.ModelSerializer):
     class Meta:
-       model = models.Produto
+       model = models.Publicacao
        fields = '__all__'
 
 class UsuariosSerializers(serializers.ModelSerializer):

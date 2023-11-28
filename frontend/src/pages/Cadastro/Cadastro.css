@@ -1,7 +1,7 @@
 .cadastro{
     background-color:  white;
     width: 40%;
-    height:300pt;
+    height:400pt;
     text-align: center;
     position: relative;
     margin: 1%;
@@ -12,11 +12,66 @@
     border-radius: 6px;
 }
 
+#input1{
+    margin-left: 6%;
+    border: 1px;
+    width: 90%;
+    height: 12%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
 #input2{
     margin-left: 6%;
     border: 1px;
     width: 90%;
     height: 12%;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 
+}
+
+#input3{
+    margin-left: 6%;
+    border: 1px;
+    width: 90%;
+    height: 12%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+#input4{
+    margin-left: 6%;
+    border: 1px;
+    width: 90%;
+    height: 12%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+#btn{
+    height: 10%;
+    width: 20%;
+    margin: 1%;
+    background-color: #ffa600;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+}
+
+header {
+    background-color:  #ffa600;
+    height: 10vh;
+}
+.navText {
+    color: white;
+    font-family: sans-serif;
+    margin-right: 70%;
+    font-weight: bold;
+  
 }

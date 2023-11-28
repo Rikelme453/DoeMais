@@ -53,7 +53,7 @@ function Search({ onClick }) {
       <div className="APP" ref={searchWrapperRef}>
         <input
           type="text"
-          placeholder="Procure seus produtos..."
+          placeholder="Procure por campanhas"
           value={filtName}
           onChange={searched}
           onClick={onClick}
@@ -86,12 +86,11 @@ function Search({ onClick }) {
             <section className='produto-section'>
               {
                itensFilt &&
-               itensFilt.map(el => <div className='ProdutoDiv' key={el.id_produto}>
+               itensFilt.map(el => <div className='ProdutoDiv' key={el.id_publicao}>
                   <img className='imagem' src={el.image}></img>
 
                   <h4 className='Nome'>{el.nome}</h4>
-                  <button className='botao-compra'>Comprar</button>
-                  <button className='valor_compra'>Preço:{el.valor}R$</button>
+                  <p>{el.texto_explicativo}</p>
 
                 </div>)}
             </section>
