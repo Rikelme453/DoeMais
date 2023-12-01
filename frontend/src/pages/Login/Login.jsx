@@ -2,7 +2,6 @@ import React from 'react';
 import './Login.css';
 import { useEffect, useState } from "react";
 import { Navigate, useNavigate } from 'react-router-dom';
-import Swal from 'sweetalert2';
 
 
 
@@ -104,8 +103,6 @@ function Login(onClick ){
             
           </form>
 
-          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
-          </script>
 
         </body>
       </html>
